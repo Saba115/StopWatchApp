@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body{
+        background-image: url(images/wallpaper-clock4.jpg);
+        text-align: center;
+    }
+    h2{
+        display: inline-block;
+        width: 100px;
+        background-color: white;
+    }
+    h1{
+        margin-top: 200px;
+    }
+</style>
+
+<body>
+    <div>
+        <h1>STOP WATCH</h1>
+    </div>
+    <div>
+        <h2 id="min">0</h2>
+        <h2 id="sec">0</h2>
+        <h2 id="msec">0</h2>
+    </div>    
+    <div>
+        <button onclick="start()">Start</button>
+        <button onclick="stop()">Stop</button>
+        <button onclick="reset()">Reset</button>
+    </div>
+    
+</body>
+<script src="app.js"></script>
+</html>
